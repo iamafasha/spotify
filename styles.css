@@ -71,3 +71,35 @@ header .search {
 #musicPlayer .volume {
     /* And some styling for the volume controls */
 }
+
+
+/* Styling the Playlist Grid  */
+
+#playlistGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+}
+
+#playlistGrid .playlist-card {
+    background-color: #282828;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#playlistGrid .playlist-card img {
+    width: 100%;
+    height: auto;
+}
+
+#playlistGrid .playlist-card .title {
+    /* Add some styling for the title here */
+}
+
+#playlistGrid .playlist-card .creator {
+    /* Add some styling for the creator here */
+}
