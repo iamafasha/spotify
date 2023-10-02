@@ -41,3 +41,33 @@ header .search {
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+
+/* Music player */
+
+#musicPlayer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+#musicPlayer .controls {
+    /* We can add styling specifically for the play/pause, next/prev buttons here */
+}
+
+#musicPlayer .track-info {
+    /* And some styling for the track info here */
+}
+
+#musicPlayer .progress-bar {
+    /* And finally some styling for the progress bar */
+}
+
+#musicPlayer .volume {
+    /* And some styling for the volume controls */
+}
