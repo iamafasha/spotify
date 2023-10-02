@@ -103,3 +103,33 @@ header .search {
 #playlistGrid .playlist-card .creator {
     /* Add some styling for the creator here */
 }
+
+/* Styling Playlist Detail Page */
+
+#playlistDetail {
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+}
+
+#playlistDetail .header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#playlistDetail .header img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#playlistDetail .header .info {
+    /* Add some styling for the playlist title, description, and other info here */
+}
+
+#playlistDetail .tracklist {
+    margin-top: 40px;
+    /* Add some styling for the tracklist here */
+}
+
