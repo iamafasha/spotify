@@ -163,6 +163,19 @@ header .search {
     /* Add some styling for the title here */
 }
 
+.dropdownMenu {
+    position: absolute;
+    background-color: #282828;
+    /* Other styling as needed */
+    display: none; /* Hide by default */
+}
+
+.playlistCard:hover .dropdownMenu {
+    display: block; /* Show when parent is hovered */
+}
+
+
+
 
 /* Responsive Design */
 
