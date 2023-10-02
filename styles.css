@@ -20,3 +20,24 @@ header .nav-links {
 header .search {
     /* And finally some styling for the search functionality */
 }
+
+
+/* Featured section  */
+
+#featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+}
+
+#featured .playlist-card {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
