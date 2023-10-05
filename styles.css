@@ -151,13 +151,15 @@ main {
 
 /* Left col row 1 */
 
+
+.spotify-logo{
+    padding: 1.3rem;
+}
+
 .spotify-logo > img {
-  width: 250px;
-  height: 80px;
   background-color: transparent;
   padding: 0;
-  margin-inline-start: -30px;
-  margin-top: -10px;
+  width: 100%;
 }
 
 .spotify-logo > img:hover {
